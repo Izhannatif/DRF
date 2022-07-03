@@ -1,1 +1,1 @@
-web: gunicorn rapidapipractice.wsgi --log-file -
+web: gunicorn Notes.Notes.wsgi --log-file -
