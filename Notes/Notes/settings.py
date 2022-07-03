@@ -28,7 +28,7 @@ load_dotenv()
 SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
-ALLOWED_HOSTS = ["django-notes-rest-api.herokuapp.com" , "https://git.heroku.com/django-notes-rest-api.git"]
+ALLOWED_HOSTS = ["https://django-notes-rest-api.herokuapp.com/" , "https://git.heroku.com/django-notes-rest-api.git"]
 
 
 # Application definition
